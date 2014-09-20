@@ -1,4 +1,4 @@
-#include "QJackMidiButton.h"
+﻿#include "QJackMidiButton.h"
 #include "QJackMidiButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackMidiButtonPlugin::name() const
 
 QString QJackMidiButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackMidiButtonPlugin::icon() const

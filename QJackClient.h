@@ -1,9 +1,11 @@
-#ifndef QJACKCLIENT_H
+﻿#ifndef QJACKCLIENT_H
 #define QJACKCLIENT_H
+
+#include <QProgressBar>
 
 #include <QWidget>
 
-class QJackClient : public QWidget
+class QJackClient : public QProgressBar
 {
 	Q_OBJECT
 

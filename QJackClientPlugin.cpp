@@ -1,4 +1,4 @@
-#include "QJackClient.h"
+﻿#include "QJackClient.h"
 #include "QJackClientPlugin.h"
 
 #include <QtPlugin>
@@ -36,12 +36,12 @@ QString QJackClientPlugin::name() const
 
 QString QJackClientPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackClientPlugin::icon() const
 {
-	return QIcon();
+	return QIcon("~/Images/Icone/jackClient.png");
 }
 
 QString QJackClientPlugin::toolTip() const

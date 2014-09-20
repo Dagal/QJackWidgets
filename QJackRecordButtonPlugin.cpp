@@ -1,4 +1,4 @@
-#include "QJackRecordButton.h"
+﻿#include "QJackRecordButton.h"
 #include "QJackRecordButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackRecordButtonPlugin::name() const
 
 QString QJackRecordButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackRecordButtonPlugin::icon() const

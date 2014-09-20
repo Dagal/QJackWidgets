@@ -1,7 +1,7 @@
-#ifndef QJACKVOLUMEFADER_H
+﻿#ifndef QJACKVOLUMEFADER_H
 #define QJACKVOLUMEFADER_H
 
-#include <QJackFader>
+#include "QJackFader.h"
 
 class QJackVolumeFader : public QJackFader
 {

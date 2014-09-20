@@ -1,9 +1,9 @@
-#ifndef QJACKFADER_H
+﻿#ifndef QJACKFADER_H
 #define QJACKFADER_H
 
-#include <QWidget>
+#include <QSlider>
 
-class QJackFader : public QWidget
+class QJackFader : public QSlider
 {
 	Q_OBJECT
 

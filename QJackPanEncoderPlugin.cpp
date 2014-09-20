@@ -1,4 +1,4 @@
-#include "QJackPanEncoder.h"
+﻿#include "QJackPanEncoder.h"
 #include "QJackPanEncoderPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackPanEncoderPlugin::name() const
 
 QString QJackPanEncoderPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackPanEncoderPlugin::icon() const

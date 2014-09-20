@@ -1,4 +1,4 @@
-#include "QJackFastForwardButton.h"
+﻿#include "QJackFastForwardButton.h"
 #include "QJackFastForwardButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackFastForwardButtonPlugin::name() const
 
 QString QJackFastForwardButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackFastForwardButtonPlugin::icon() const

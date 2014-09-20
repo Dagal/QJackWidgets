@@ -1,4 +1,4 @@
-#include "QJackAudioBarGraph.h"
+﻿#include "QJackAudioBarGraph.h"
 #include "QJackAudioBarGraphPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackAudioBarGraphPlugin::name() const
 
 QString QJackAudioBarGraphPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackAudioBarGraphPlugin::icon() const

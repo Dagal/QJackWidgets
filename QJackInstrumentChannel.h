@@ -1,9 +1,9 @@
-#ifndef QJACKINSTRUMENTCHANNEL_H
+﻿#ifndef QJACKINSTRUMENTCHANNEL_H
 #define QJACKINSTRUMENTCHANNEL_H
 
-#include <QWidget>
+#include "QJackChannel.h"
 
-class QJackInstrumentChannel : public QWidget
+class QJackInstrumentChannel : public QJackChannel
 {
 	Q_OBJECT
 

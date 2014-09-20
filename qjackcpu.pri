@@ -1,0 +1,2 @@
+HEADERS += QJackCPU.h
+SOURCES += QJackCPU.cpp

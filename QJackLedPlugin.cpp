@@ -1,4 +1,4 @@
-#include "QJackLed.h"
+﻿#include "QJackLed.h"
 #include "QJackLedPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackLedPlugin::name() const
 
 QString QJackLedPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackLedPlugin::icon() const

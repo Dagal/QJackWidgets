@@ -1,6 +1,7 @@
-#include "QJackMonitorChannel.h"
+﻿#include "QJackMonitorChannel.h"
 
 QJackMonitorChannel::QJackMonitorChannel(QWidget *parent) :
-	QWidget(parent)
+	QJackChannel(parent)
 {
+	setName(tr("Monitor"));
 }

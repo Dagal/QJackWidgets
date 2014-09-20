@@ -1,4 +1,4 @@
-#include "QJackRewindButton.h"
+﻿#include "QJackRewindButton.h"
 #include "QJackRewindButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackRewindButtonPlugin::name() const
 
 QString QJackRewindButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackRewindButtonPlugin::icon() const

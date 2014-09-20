@@ -1,4 +1,4 @@
-#include "QJackAudioSample.h"
+﻿#include "QJackAudioSample.h"
 #include "QJackAudioSamplePlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackAudioSamplePlugin::name() const
 
 QString QJackAudioSamplePlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackAudioSamplePlugin::icon() const

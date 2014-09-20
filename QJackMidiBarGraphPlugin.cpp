@@ -1,4 +1,4 @@
-#include "QJackMidiBarGraph.h"
+﻿#include "QJackMidiBarGraph.h"
 #include "QJackMidiBarGraphPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackMidiBarGraphPlugin::name() const
 
 QString QJackMidiBarGraphPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackMidiBarGraphPlugin::icon() const

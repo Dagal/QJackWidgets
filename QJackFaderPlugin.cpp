@@ -1,4 +1,4 @@
-#include "QJackFader.h"
+﻿#include "QJackFader.h"
 #include "QJackFaderPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackFaderPlugin::name() const
 
 QString QJackFaderPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackFaderPlugin::icon() const

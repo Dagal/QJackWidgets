@@ -1,4 +1,4 @@
-#include "QJackTapTempoButton.h"
+﻿#include "QJackTapTempoButton.h"
 #include "QJackTapTempoButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackTapTempoButtonPlugin::name() const
 
 QString QJackTapTempoButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackTapTempoButtonPlugin::icon() const

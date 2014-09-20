@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/" >
-
+    <qresource prefix="/">
+        <file>../../../Images/Icone/jackClient.png</file>
     </qresource>
 </RCC>

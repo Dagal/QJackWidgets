@@ -1,6 +1,7 @@
-#include "QJackMidiChannel.h"
+﻿#include "QJackMidiChannel.h"
 
 QJackMidiChannel::QJackMidiChannel(QWidget *parent) :
-	QWidget(parent)
+	QJackChannel(parent)
 {
+	setName(tr("Midi1"));
 }

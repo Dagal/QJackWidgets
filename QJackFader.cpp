@@ -1,6 +1,8 @@
-#include "QJackFader.h"
+﻿#include "QJackFader.h"
 
 QJackFader::QJackFader(QWidget *parent) :
-	QWidget(parent)
+	QSlider(parent)
 {
+	setMinimum(0);
+	setMaximum(127);
 }

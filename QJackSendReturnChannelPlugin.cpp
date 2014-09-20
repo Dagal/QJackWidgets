@@ -1,4 +1,4 @@
-#include "QJackSendReturnChannel.h"
+﻿#include "QJackSendReturnChannel.h"
 #include "QJackSendReturnChannelPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackSendReturnChannelPlugin::name() const
 
 QString QJackSendReturnChannelPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackSendReturnChannelPlugin::icon() const

@@ -1,8 +1,9 @@
-#include "QJackClientPlugin.h"
+﻿#include "QJackClientPlugin.h"
 #include "QJackAudioVuMeterPlugin.h"
 #include "QJackAudioBarGraphPlugin.h"
 #include "QJackEncoderPlugin.h"
 #include "QJackFaderPlugin.h"
+#include "QJackVolumeFaderPlugin.h"
 #include "QJackSoundButtonPlugin.h"
 #include "QJackInstrumentButtonPlugin.h"
 #include "QJackMidiButtonPlugin.h"
@@ -46,6 +47,7 @@ QJackCollection::QJackCollection(QObject *parent)
 	m_widgets.append(new QJackAudioBarGraphPlugin(this));
 	m_widgets.append(new QJackEncoderPlugin(this));
 	m_widgets.append(new QJackFaderPlugin(this));
+	m_widgets.append(new QJackVolumeFaderPlugin(this));
 	m_widgets.append(new QJackSoundButtonPlugin(this));
 	m_widgets.append(new QJackInstrumentButtonPlugin(this));
 	m_widgets.append(new QJackMidiButtonPlugin(this));

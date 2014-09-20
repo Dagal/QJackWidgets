@@ -1,6 +1,8 @@
-#include "QJackEncoder.h"
+﻿#include "QJackEncoder.h"
 
 QJackEncoder::QJackEncoder(QWidget *parent) :
-	QWidget(parent)
+	QDial(parent)
 {
+	setMinimum(0);
+	setMaximum(127);
 }

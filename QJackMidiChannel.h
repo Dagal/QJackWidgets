@@ -1,9 +1,9 @@
-#ifndef QJACKMIDICHANNEL_H
+﻿#ifndef QJACKMIDICHANNEL_H
 #define QJACKMIDICHANNEL_H
 
-#include <QWidget>
+#include "QJackChannel.h"
 
-class QJackMidiChannel : public QWidget
+class QJackMidiChannel : public QJackChannel
 {
 	Q_OBJECT
 

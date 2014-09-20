@@ -1,9 +1,9 @@
-#ifndef QJACKSOUNDCHANNEL_H
+﻿#ifndef QJACKSOUNDCHANNEL_H
 #define QJACKSOUNDCHANNEL_H
 
-#include <QWidget>
+#include "QJackChannel.h"
 
-class QJackSoundChannel : public QWidget
+class QJackSoundChannel : public QJackChannel
 {
 	Q_OBJECT
 

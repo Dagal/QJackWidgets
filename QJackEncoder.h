@@ -1,9 +1,9 @@
-#ifndef QJACKENCODER_H
+﻿#ifndef QJACKENCODER_H
 #define QJACKENCODER_H
 
-#include <QWidget>
+#include <QDial>
 
-class QJackEncoder : public QWidget
+class QJackEncoder : public QDial
 {
 	Q_OBJECT
 

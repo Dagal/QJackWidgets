@@ -1,4 +1,4 @@
-#include "QJackPlayButton.h"
+﻿#include "QJackPlayButton.h"
 #include "QJackPlayButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackPlayButtonPlugin::name() const
 
 QString QJackPlayButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackPlayButtonPlugin::icon() const

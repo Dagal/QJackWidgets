@@ -1,4 +1,4 @@
-#include "QJackMasterChannel.h"
+﻿#include "QJackMasterChannel.h"
 #include "QJackMasterChannelPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackMasterChannelPlugin::name() const
 
 QString QJackMasterChannelPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackMasterChannelPlugin::icon() const

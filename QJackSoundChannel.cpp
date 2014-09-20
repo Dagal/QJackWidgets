@@ -1,6 +1,7 @@
-#include "QJackSoundChannel.h"
+﻿#include "QJackSoundChannel.h"
 
 QJackSoundChannel::QJackSoundChannel(QWidget *parent) :
-	QWidget(parent)
+	QJackChannel(parent)
 {
+	setName(tr("Sound"));
 }

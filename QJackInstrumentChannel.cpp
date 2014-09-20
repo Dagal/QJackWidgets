@@ -1,6 +1,7 @@
-#include "QJackInstrumentChannel.h"
+﻿#include "QJackInstrumentChannel.h"
 
 QJackInstrumentChannel::QJackInstrumentChannel(QWidget *parent) :
-	QWidget(parent)
+	QJackChannel(parent)
 {
+	setName(tr("Instrument"));
 }

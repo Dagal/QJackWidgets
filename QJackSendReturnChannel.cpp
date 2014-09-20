@@ -1,6 +1,7 @@
-#include "QJackSendReturnChannel.h"
+﻿#include "QJackSendReturnChannel.h"
 
 QJackSendReturnChannel::QJackSendReturnChannel(QWidget *parent) :
-	QWidget(parent)
+	QJackChannel(parent)
 {
+	setName(tr("Send//Return"));
 }

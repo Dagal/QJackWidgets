@@ -1,4 +1,4 @@
-#include "QJackProcessorUse.h"
+﻿#include "QJackProcessorUse.h"
 #include "QJackProcessorUsePlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackProcessorUsePlugin::name() const
 
 QString QJackProcessorUsePlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackProcessorUsePlugin::icon() const

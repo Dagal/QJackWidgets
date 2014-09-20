@@ -1,4 +1,4 @@
-#include "QJackPreviousIndexButton.h"
+﻿#include "QJackPreviousIndexButton.h"
 #include "QJackPreviousIndexButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackPreviousIndexButtonPlugin::name() const
 
 QString QJackPreviousIndexButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackPreviousIndexButtonPlugin::icon() const

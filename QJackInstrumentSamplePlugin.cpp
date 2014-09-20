@@ -1,4 +1,4 @@
-#include "QJackInstrumentSample.h"
+﻿#include "QJackInstrumentSample.h"
 #include "QJackInstrumentSamplePlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackInstrumentSamplePlugin::name() const
 
 QString QJackInstrumentSamplePlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackInstrumentSamplePlugin::icon() const

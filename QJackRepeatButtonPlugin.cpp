@@ -1,4 +1,4 @@
-#include "QJackRepeatButton.h"
+﻿#include "QJackRepeatButton.h"
 #include "QJackRepeatButtonPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackRepeatButtonPlugin::name() const
 
 QString QJackRepeatButtonPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackRepeatButtonPlugin::icon() const

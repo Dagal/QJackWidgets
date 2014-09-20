@@ -1,4 +1,4 @@
-#include "QJackExternalSyncView.h"
+﻿#include "QJackExternalSyncView.h"
 #include "QJackExternalSyncViewPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackExternalSyncViewPlugin::name() const
 
 QString QJackExternalSyncViewPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackExternalSyncViewPlugin::icon() const

@@ -1,6 +1,7 @@
-#include "QJackPanEncoder.h"
+﻿#include "QJackPanEncoder.h"
 
 QJackPanEncoder::QJackPanEncoder(QWidget *parent) :
-	QWidget(parent)
+	QJackEncoder(parent)
 {
+	setValue(64);
 }

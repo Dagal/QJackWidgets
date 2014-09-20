@@ -1,6 +1,6 @@
-#include "QJackClient.h"
+﻿#include "QJackClient.h"
 
 QJackClient::QJackClient(QWidget *parent) :
-	QWidget(parent)
+	QProgressBar(parent)
 {
 }

@@ -1,4 +1,4 @@
-#include "QJackTempoEdit.h"
+﻿#include "QJackTempoEdit.h"
 #include "QJackTempoEditPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackTempoEditPlugin::name() const
 
 QString QJackTempoEditPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackTempoEditPlugin::icon() const

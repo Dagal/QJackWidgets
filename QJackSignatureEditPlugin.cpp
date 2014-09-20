@@ -1,4 +1,4 @@
-#include "QJackSignatureEdit.h"
+﻿#include "QJackSignatureEdit.h"
 #include "QJackSignatureEditPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackSignatureEditPlugin::name() const
 
 QString QJackSignatureEditPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackSignatureEditPlugin::icon() const

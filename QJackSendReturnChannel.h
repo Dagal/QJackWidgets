@@ -1,9 +1,9 @@
-#ifndef QJACKSENDRETURNCHANNEL_H
+﻿#ifndef QJACKSENDRETURNCHANNEL_H
 #define QJACKSENDRETURNCHANNEL_H
 
-#include <QWidget>
+#include "QJackChannel.h"
 
-class QJackSendReturnChannel : public QWidget
+class QJackSendReturnChannel : public QJackChannel
 {
 	Q_OBJECT
 

@@ -1,4 +1,4 @@
-#include "QJackPositionView.h"
+﻿#include "QJackPositionView.h"
 #include "QJackPositionViewPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackPositionViewPlugin::name() const
 
 QString QJackPositionViewPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackPositionViewPlugin::icon() const

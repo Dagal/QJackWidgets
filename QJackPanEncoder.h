@@ -1,9 +1,9 @@
-#ifndef QJACKPANENCODER_H
+﻿#ifndef QJACKPANENCODER_H
 #define QJACKPANENCODER_H
 
-#include <QWidget>
+#include "QJackEncoder.h"
 
-class QJackPanEncoder : public QWidget
+class QJackPanEncoder : public QJackEncoder
 {
 	Q_OBJECT
 

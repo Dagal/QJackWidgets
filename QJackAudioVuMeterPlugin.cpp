@@ -1,4 +1,4 @@
-#include "QJackAudioVuMeter.h"
+﻿#include "QJackAudioVuMeter.h"
 #include "QJackAudioVuMeterPlugin.h"
 
 #include <QtPlugin>
@@ -36,7 +36,7 @@ QString QJackAudioVuMeterPlugin::name() const
 
 QString QJackAudioVuMeterPlugin::group() const
 {
-	return QLatin1String("");
+	return QLatin1String("QJack");
 }
 
 QIcon QJackAudioVuMeterPlugin::icon() const
