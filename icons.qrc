@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>../../../Images/Icone/jackClient.png</file>
+        <file>QJack.xpm</file>
+        <file>QJackClient.xpm</file>
     </qresource>
 </RCC>
