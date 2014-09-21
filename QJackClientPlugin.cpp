@@ -41,7 +41,7 @@ QString QJackClientPlugin::group() const
 
 QIcon QJackClientPlugin::icon() const
 {
-	return QIcon("~/Images/Icone/jackClient.png");
+	return QIcon(":/QJackClient.xpm");
 }
 
 QString QJackClientPlugin::toolTip() const
