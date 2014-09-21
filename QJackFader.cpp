@@ -5,4 +5,5 @@ QJackFader::QJackFader(QWidget *parent) :
 {
 	setMinimum(0);
 	setMaximum(127);
+	setMinimumHeight(127);
 }
